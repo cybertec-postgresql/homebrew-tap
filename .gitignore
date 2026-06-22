@@ -1,0 +1,7 @@
+# OS / editor cruft
+.DS_Store
+*.swp
+*~
+
+# Homebrew local build artefacts (in case anyone runs `brew` locally here)
+*.bottle.tar.gz
