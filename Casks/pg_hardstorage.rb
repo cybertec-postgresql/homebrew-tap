@@ -1,20 +1,20 @@
 cask "pg_hardstorage" do
-  version "1.0.17"
+  version "1.1.0"
 
   on_macos do
     on_arm do
       url "https://github.com/cybertec-postgresql/pg_hardstorage/releases/download/v#{version}/pg_hardstorage_#{version}_darwin_arm64.tar.gz"
-      sha256 "325feeddd6439629f287301479d146da963ffc40e6c4dad52c04c39e75456899"
+      sha256 "e3146fc8e64079a309e6bce6d155a6b49cb6340061be5e9340ac3e58297ba2c5"
     end
   end
   on_linux do
     on_intel do
       url "https://github.com/cybertec-postgresql/pg_hardstorage/releases/download/v#{version}/pg_hardstorage_#{version}_linux_amd64.tar.gz"
-      sha256 "0b8c7d4fb63aa2a32dea78c6811405555a00b5e79408b05a5078d745fee13a3a"
+      sha256 "6184188ee54e0bea9d34d9f7aadcf710e1c099e4a56624e25207a8c964ed465f"
     end
     on_arm do
       url "https://github.com/cybertec-postgresql/pg_hardstorage/releases/download/v#{version}/pg_hardstorage_#{version}_linux_arm64.tar.gz"
-      sha256 "ca6bd22d31b886eafd2a38bd99cb644a610159c4f50ca6c96e5751eeaee66ba8"
+      sha256 "bb5c97dc4cc5f1fcfb0b85918fa32319e1500b62118e66cd544cd4d6f1ef77c4"
     end
   end
 
